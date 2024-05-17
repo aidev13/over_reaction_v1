@@ -1,0 +1,16 @@
+1. A component in react is just a JS function
+
+2. A react component should always start with a capital letter. 
+
+example -
+const MyComponent = () => {
+   console.log('Hi')
+}
+
+or
+
+function MyComponent() {
+   console.log('Hello')
+}
+
+3.

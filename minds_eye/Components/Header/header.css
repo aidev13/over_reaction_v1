@@ -1,0 +1,34 @@
+header {
+   margin-left: 125px;
+   background-color: aliceblue;
+   height: auto;
+   padding: 0 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* .headerContainer {
+   display: grid;
+   grid-template-columns: 325px auto;
+} */
+
+.floatLeft {
+   float: left;
+   margin-right: 20px;
+   padding: 15px;
+}
+
+/* .text-content {
+   overflow: hidden; 
+   display: inline-block;
+   vertical-align: top;
+} */
+
+p {
+   line-height: 1.4;
+   padding: 15px;
+}
+
+.emptySpace {
+   height: 50px;
+}
