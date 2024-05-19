@@ -1,22 +1,29 @@
 .sidenav {
    height: 100%;
-   width: 125px;
+   width: 100px;
    position: fixed;
    z-index: 1;
    top: 0;
-   left: 0;
-   background-color: #111;
+   left: -75px;
+   background-color: #ffffff;
    overflow-x: hidden;
    padding-top: 20px;
+   box-shadow: rgb(146, 146, 146) 0 0 10px -3px;
+   border-radius: 0 25px 0 0;
+   transition: .3s ease-in-out;
+ }
+
+ .sidenav:hover {
+   margin-left: 75px;
  }
  
  
- .sidenav ul li a:hover {
+.sidenav ul li a:hover {
     margin-left: 5px;
-    color: #f1f1f1;
+    color: #343434;
    }
    
-   .sidenav ul {
+.sidenav ul {
      list-style-type: none;
      padding: 0;
   }

@@ -1,0 +1,16 @@
+.footer {
+   margin: none;
+   padding-left: 100px;
+   height: 120px;
+   background-color:aliceblue;
+}
+
+#contactInfo {
+   display: flex;
+   height: 100px;
+   width: 200px;
+   padding: 10px;
+   align-items: center;
+   margin-left: 50px;
+
+}
