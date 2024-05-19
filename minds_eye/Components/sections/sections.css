@@ -1,19 +1,20 @@
 .card {
    position: relative;
    /* margin-left: 125px; */
-   height: 400px;
+   height: 475px;
    /* width: auto; */
-   width: 450px;
+   /* margin: auto; */
+   width: 500px;
    /* background-color: aliceblue; */
    /* padding: 8px; */
    border-radius: 18px;
    border: .5px solid rgb(234, 234, 234);
-   box-shadow: rgba(0, 0, 0, 0.338) 0px 7px 29px 0px;
+   box-shadow: rgba(100, 100, 111, 0.317) 0px 7px 29px 0px;
 
 }
 
 .panel {
-   margin-top: 75px;
+   margin-top: 83px;
    margin-left: 100px;
    padding: 15px;
    display: flex; 

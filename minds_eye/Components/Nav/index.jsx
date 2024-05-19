@@ -1,12 +1,12 @@
 import './nav.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { faCircleRight } from '@fortawesome/free-regular-svg-icons';
 
 const SideNav = () => {
    return (
       <div className="sidenav">
-         <div>
-         
+         <div id='arrowIcon'>
+            <FontAwesomeIcon icon={faCircleRight} size='xl'/>
          </div>
          <ul>
             <li><a href="#">Home</a></li>

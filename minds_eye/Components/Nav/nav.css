@@ -1,6 +1,6 @@
 .sidenav {
    height: 100%;
-   width: 100px;
+   width: 112px;
    position: fixed;
    z-index: 1;
    top: 0;
@@ -37,5 +37,10 @@
    text-decoration: none;
    color: #818181;
    display: block;
+ }
+
+ #arrowIcon {
+   /* z-index: 2; */
+   margin-left: 80px;
  }
  
