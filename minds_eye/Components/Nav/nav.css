@@ -11,6 +11,7 @@
    box-shadow: rgb(146, 146, 146) 0 0 10px -3px;
    border-radius: 0 25px 0 0;
    transition: .3s ease-in-out;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
  .sidenav:hover {
@@ -19,7 +20,7 @@
  
  
 .sidenav ul li a:hover {
-    margin-left: 5px;
+    margin-left: 8px;
     color: #343434;
    }
    
@@ -35,12 +36,18 @@
  
  .sidenav ul li a {
    text-decoration: none;
-   color: #818181;
+   color: #acacac;
    display: block;
  }
 
  #arrowIcon {
-   /* z-index: 2; */
    margin-left: 80px;
+   transition: .4s ease;
  }
  
+.sidenav:hover {
+   #arrowIcon {
+   padding-left: 5px;
+   transform: rotate(180deg);
+   }
+ }

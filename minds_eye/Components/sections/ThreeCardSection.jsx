@@ -1,26 +1,19 @@
 import './sections.css'
+import Card from '../Cards';
 
 function ThreeCardSection() {
    return (
       <>
          <div className='panel'>
-            <div className="card" id='cardOne'>
-
+            <Card>
                <div className="text-container bg">CCTV Installation</div>
-
-            </div>
-
-            <div className="card" id='cardTwo'>
-
-               <div className="text-container">Access Control</div>
-
-            </div>
-
-            <div className="card" id='cardOThree'>
-
-               <div className="text-container">Selective Customers</div>
-               
-            </div>
+            </Card>
+            <Card>
+               <div className="text-container bg">Access Control</div>
+            </Card>
+            <Card>
+               <div className="text-container bg">Customer Focused</div>
+            </Card>
          </div>
       </>
    )
