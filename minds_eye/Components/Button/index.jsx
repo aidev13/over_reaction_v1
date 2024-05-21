@@ -1,7 +1,14 @@
+import '../../main.css'
 
+const Btn = props => {
 
-const Btn = () => {
-   return <button>Click Me</button>
+   function darkMode() {
+      document.body.classList.toggle('dark')
+   }
+
+   return (
+      <button className={props.className} onClick={darkMode}>Dark</button>
+   )
 
 }
 

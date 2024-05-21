@@ -11,9 +11,9 @@ const titles = [
       about: 'This is about Access Control'
    },
    {
-      catogory: 'Costumer expectations',
+      catogory: 'Customer expectations',
       about: 'This is about our customers'
-   },
+   }
 ]
 
 

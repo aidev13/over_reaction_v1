@@ -47,7 +47,7 @@
  
 .sidenav:hover {
    #arrowIcon {
-   padding-left: 5px;
+   padding-left: 8px;
    transform: rotate(180deg);
    }
- }
+}
