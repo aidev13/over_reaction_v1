@@ -12,7 +12,7 @@ const titles = [
    },
    {
       catogory: 'Customer expectations',
-      about: 'At our core, we\'re dedicated to exceptional service that caters to your unique needs. At Mind\'s Eye Secuirty, we create solutions with your requirements in mind, ensuring security and convenience at a price that fits your budget. Experience the difference with service that\'s all about you.'
+      about: 'At our core, we\'re dedicated to exceptional service that caters to your unique needs. At Mind\'s Eye Security, we create solutions with your expectations in mind, ensuring security and convenience at a price that fits your budget. Experience the difference with service that\'s all about you.'
    }
 ]
 
