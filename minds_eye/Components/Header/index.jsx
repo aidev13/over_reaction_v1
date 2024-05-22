@@ -5,6 +5,8 @@ const Header = () => {
    return (
       <header>
          <h1>Mind's Eye Security</h1>
+
+         <div className="emptySpace"></div>
          
          <div className='headerContainer bgImg'>
             <img src="https://placehold.co/300x150" alt="place holder image" className='floatLeft' />

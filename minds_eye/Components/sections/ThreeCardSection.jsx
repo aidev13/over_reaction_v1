@@ -4,15 +4,15 @@ import Card from '../Cards';
 const titles = [
    {
       catogory: 'CCTV Installation',
-      about: 'This is about cctz'
+      about: 'With years of experience, we specialize in expert CCTV installation tailored to your needs. Our knowledgeable technicians ensure you get the right system at an affordable cost, providing reliable security and peace of mind. Discover how we can protect your property today.'
    },
    {
       catogory: 'Access Control',
-      about: 'This is about Access Control'
+      about: 'With years of experience, we specialize in providing expert access control solutions tailored to your needs. Our knowledgeable technicians ensure you get the right system at an affordable cost, enhancing security and convenience. Discover how we can help you manage and protect access to your property today.'
    },
    {
       catogory: 'Customer expectations',
-      about: 'This is about our customers'
+      about: 'At our core, we\'re dedicated to exceptional service that caters to your unique needs. At Mind\'s Eye Secuirty, we create solutions with your requirements in mind, ensuring security and convenience at a price that fits your budget. Experience the difference with service that\'s all about you.'
    }
 ]
 
